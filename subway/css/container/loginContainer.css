@@ -1,0 +1,92 @@
+/*loginContainer*/
+.container {}
+
+.container .inner-container {
+    padding: 100px 0 0 0;
+}
+
+.container .inner-container .login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .inner-container .login .login-con{
+    flex: 0 1 400px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.container .inner-container .login .login-con h1.title{
+    line-height: 50px;
+    /* border: 1px solid #000; */
+    font-weight: lighter;
+    padding: 0 20px;
+}
+.container .inner-container .login ul{
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+    padding: 20px;
+}
+.container .inner-container .login ul>li{
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+    line-height: 50px;
+}
+.container .inner-container .login ul>li:not(.ne) input{
+    width: 100%;
+}
+.container .inner-container .login ul>li.hm{
+    display: flex;
+    flex-direction: column;
+}
+.container .inner-container .login ul>li.hm input:focus{
+   outline: 0;
+   border-bottom: 2px solid #000;
+}
+.container .inner-container .login ul>li.hm input{
+    padding: 10px;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 2px solid rgb(224, 224, 224);
+}
+.container .inner-container .login ul>li.ne label{
+    font-size: 12px;
+    font-weight: 600;
+}
+.container .inner-container .login ul>li:last-child input{
+    padding: 20px;
+    background-color: #009232;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: 0;
+    transition: all.3s;
+}
+.container .inner-container .login ul>li:last-child input:hover{
+    background-color: #005a20;
+}
+.container .inner-container .login ul>li:last-child .text-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    gap: 10px;
+}
+.container .inner-container .login ul>li:last-child .text-box p{
+    flex: 1;
+    height: auto;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: #009232;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s;
+}
+.container .inner-container .login ul>li:last-child .text-box p:hover{
+    color: #fff;
+    background-color: #4eb873;
+    border: 0;
+}

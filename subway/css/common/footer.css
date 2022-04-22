@@ -1,0 +1,63 @@
+/*footer*/
+.footer{
+    background-color: rgb(0, 31, 3);
+    height: auto;
+}
+.footer .inner-footer{
+    /* display: flex; */
+}
+.footer .inner-footer .f-logo{
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    /* padding: 10px 0; */
+    box-sizing: border-box;
+}
+.footer .inner-footer .f-logo img{
+    flex: 0 0 150px;
+    height: auto;
+    display: block;
+    /* margin: 0 auto; */
+}
+.footer .inner-footer .f-nav{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+}
+.footer .inner-footer .f-nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .inner-footer .f-nav ul li{
+    line-height: 30px;
+    padding: 0 20px;
+    color: #ccc;
+}
+.footer .inner-footer .f-nav ul li a{
+    color: inherit;
+}
+.footer .inner-footer .f-icon{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid #000; */
+    
+}
+.footer .inner-footer .f-icon ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .inner-footer .f-icon ul li{
+    line-height: 30px;
+    padding: 20px 15px;
+    cursor: pointer;
+}
+.footer .inner-footer .f-text{
+    display: flex;
+    justify-content: center;
+}
+.footer .inner-footer .f-text p{
+    line-height: 30px;
+    color: #ccc;
+    padding-bottom: 20px;
+}

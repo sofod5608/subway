@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <script src="js/login.js" defer></script>
+    <link rel="stylesheet" href="css/pages/login.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div id="wrap">
+        <div class="header">
+            <div class="inner-header">
+                <div class="nav">
+                    <h1 class="logo"><a href="index.html"><img src="img/logo.png" alt="LOGO"></a></h1>
+                    <div class="gnb">
+                        <ul>
+                            <li><a href="#">메뉴소개</a>
+                                <ul class="sub">
+                                    <li>샌드위치</li>
+                                    <li>랩·기타</li>
+                                    <li>샐러드</li>
+                                    <li>아침메뉴</li>
+                                    <li>스마일 썹</li>
+                                    <li>단체메뉴</li>
+                                </ul>
+                            </li>
+                            <li><a href="#">이용방법</a>
+                                <ul class="sub">
+                                    <li>서브웨이 이용방법</li>
+                                    <li>단체메뉴 이용방법</li>
+                                    <li>신선한 재료 소개</li>
+                                    <li>App 이용방법</li>
+                                </ul>
+                            </li>
+                            <li><a href="#">새소식</a>
+                                <ul class="sub">
+                                    <li>이벤트·프로모션</li>
+                                    <li>뉴스·공지사항</li>
+                                    <li>광고영상</li>
+                                </ul>
+                            </li>
+                            <li><a href="#">써브웨이</a>
+                                <ul class="sub">
+                                    <li>써브웨이 역사</li>
+                                    <li>써브웨이 약속</li>
+                                    <li>샌드위치 아티스트 지원</li>
+                                    <li>매장찾기</li>
+                                </ul>
+                            </li>
+                            <li><a href="#">가맹점</a>
+                                <ul class="sub">
+                                    <li>써브웨이 프렌차이즈</li>
+                                    <li>가맹관련 FAQ</li>
+                                    <li>가맹신청·문의</li>
+                                    <li>지사안내</li>
+                                    <li>사업설명회</li>
+                                </ul>
+                            </li>
+                            <li><a href="#">온라인주문</a>
+                                <ul class="sub">
+                                    <li>FAST-SUB</li>
+                                    <li>HOME-SUB</li>
+                                    <li>단체주문</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right-menu">
+                        <ul>
+                            <li><a href="login.html">로그인</a></li>
+                            <li><a href="join.html">회원가입</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="inner-container">
+                <div class="login">
+                    <div class="login-con">
+                        <h1 class="title">Login</h1>
+                        <form action="loginOk.do" method="POST" id="loginForm">
+                            <ul>
+                                <li class="hm">
+                                    <input type="text" name="userId" id="userId" maxlength="14" placeholder="아이디">
+                                </li>
+                                <li class="hm">
+                                    <input type="password" name="userPw" id="userPw" maxlength="14" placeholder="비밀번호">
+                                </li>
+                                <li class="ne">
+                                    <input type="checkbox" name="idSave" id="idSave" value="아이디저장">
+                                    <label for="idSave">아이디저장</label>
+                                </li>
+                                <li>
+                                    <input type="button" value="로그인" id="loginBtn">
+                                    <div class="text-box">
+                                        <p>회원가입</p><p>아이디찾기</p><p>비밀번호찾기</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="inner-footer">
+                <div class="f-logo"><img src="img/flogo.png" alt="flogo"></div>
+                <div class="f-nav">
+                    <ul>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">써브카드</a></li>
+                        <li><a href="#">점주관리자</a></li>
+                        <li><a href="#">Subway Listens</a></li>
+                    </ul>
+                </div>
+                <div class="f-icon">
+                    <ul>
+                        <li><img src="img/fcon0.png" alt="fcon0"></li>
+                        <li><img src="img/fcon1.png" alt="fcon1"></li>
+                        <li><img src="img/fcon2.png" alt="fcon2"></li>
+                    </ul>
+                </div>
+                <div class="f-text">
+                    <p>© 2021 Subway IP LLC. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
